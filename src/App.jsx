@@ -1,7 +1,10 @@
+import { QRComponent } from "./components/qr";
+
 const App = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <QRComponent />
+      {/* <h1 className="text-3xl font-bold underline">Hello world!</h1> */}
     </>
   );
 };
